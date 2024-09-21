@@ -8,10 +8,14 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.38.0"
-langchain = "^0.3.0"
+langchain = "*"
 google-cloud-aiplatform = "^1.67.1"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.0"
+pydantic = "*"
 
-
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.0"
 
 [build-system]
 requires = ["poetry-core"]
